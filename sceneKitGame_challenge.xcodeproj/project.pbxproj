@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81237B4122F31AB100652A45 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 81237B3F22F31AB100652A45 /* spark.png */; };
+		81237B4222F31AB100652A45 /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 81237B4022F31AB100652A45 /* Trail.scnp */; };
+		81633BDE22F3248600CE86D9 /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 81633BDD22F3248600CE86D9 /* Explode.scnp */; };
 		81A8043D22F1F6580049272E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8043C22F1F6580049272E /* AppDelegate.swift */; };
 		81A8044122F1F6580049272E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8044022F1F6580049272E /* GameViewController.swift */; };
 		81A8044422F1F6580049272E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A8044222F1F6580049272E /* Main.storyboard */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81237B3F22F31AB100652A45 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		81237B4022F31AB100652A45 /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
+		81633BDD22F3248600CE86D9 /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
 		81A8043922F1F6580049272E /* sceneKitGame_challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sceneKitGame_challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A8043C22F1F6580049272E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81A8044022F1F6580049272E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81237B3E22F31A8200652A45 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				81237B3F22F31AB100652A45 /* spark.png */,
+				81237B4022F31AB100652A45 /* Trail.scnp */,
+				81633BDD22F3248600CE86D9 /* Explode.scnp */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 		81A8043022F1F6580049272E = {
 			isa = PBXGroup;
 			children = (
-				81A8045222F1FD5F0049272E /* ShapeType.swift */,
 				81A8043B22F1F6580049272E /* sceneKitGame_challenge */,
 				81A8043A22F1F6580049272E /* Products */,
 			);
@@ -73,9 +88,11 @@
 		81A8043B22F1F6580049272E /* sceneKitGame_challenge */ = {
 			isa = PBXGroup;
 			children = (
+				81237B3E22F31A8200652A45 /* Particles */,
 				81A8045422F217590049272E /* GameUtils */,
 				81A8045022F1FA900049272E /* GeometryFighter.scnassets */,
 				81A8043C22F1F6580049272E /* AppDelegate.swift */,
+				81A8045222F1FD5F0049272E /* ShapeType.swift */,
 				81A8044022F1F6580049272E /* GameViewController.swift */,
 				81A8044222F1F6580049272E /* Main.storyboard */,
 				81A8044522F1F6590049272E /* Assets.xcassets */,
@@ -157,9 +174,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81237B4122F31AB100652A45 /* spark.png in Resources */,
 				81A8044922F1F6590049272E /* LaunchScreen.storyboard in Resources */,
 				81A8044622F1F6590049272E /* Assets.xcassets in Resources */,
 				81A8044422F1F6580049272E /* Main.storyboard in Resources */,
+				81237B4222F31AB100652A45 /* Trail.scnp in Resources */,
+				81633BDE22F3248600CE86D9 /* Explode.scnp in Resources */,
 				81A8045122F1FA900049272E /* GeometryFighter.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
